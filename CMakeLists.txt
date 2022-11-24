@@ -1,3 +1,6 @@
+add_compile_options("-fPIC")
+add_link_options("-ldl")
+
 add_library(Foo foo.cpp)
 
 add_library(Bar SHARED bar.cpp)
